@@ -1,0 +1,147 @@
+body{
+  background-color:#000000;
+  font-family:"Tangerine";
+  color:#72C3C3;
+  margin:0;
+  padding:0;
+}
+
+.container{
+  width:1024px;
+  height: 768px;
+  margin: 0 auto;
+  border: 30px solid #F9E1B3;
+}
+
+.box{
+  margin-left: auto;
+  margin-right: auto;
+  width: 491px;
+}
+
+.header{
+  height: 60px;
+}
+
+.letter-container{
+  width: 431px;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  align-items: flex-end;
+  margin-left: 113.5px;
+}
+
+.letter-container h1 {
+  font-size: 449px;
+  font-weight: 400;
+  margin-top: -55.5px;
+  margin-bottom: 0;
+  color: #F9E1B3;
+
+}
+
+.main-text h2{
+  font-size: 28px;
+    font-family: 'Tangerine', cursive;
+}
+
+.main-text p{
+  font-size: 14px;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.author-title {
+  font-size: 18px;
+  line-height: 5px;
+}
+
+.button {
+  position:relative;
+  height: 38px;
+  width: 38px;
+}
+.position-absolute{
+position: absolute;
+top: 40%;
+right: 33%;
+
+}
+
+.button:before,
+.button:after {
+  position:absolute;
+  content: "";
+  /* Original 60px/105px .5714*/
+  width:19.429px;
+  height: 34px;
+  background:#FF7979;
+  border-radius: 50px 50px 0 0;
+}
+
+.button:before {
+  left:5px;
+
+  -webkit-transform:rotate(-45deg);
+  transform:rotate(-45deg);
+
+  -webkit-transform-orgin:0 100%;
+  transform-orgin:0 100%;
+}
+
+.button:after {
+  left:16px;
+  top:0px;
+
+  -webkit-transform:rotate(45deg);
+  transform:rotate(45deg);
+
+  -webkit-transform-orgin:100% 100%;
+  transform-orgin:100% 100%;
+}
+
+
+.container{
+  width: 718px;
+  background-color: #FDF4F4;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.letter-set {
+  font-size: 27px;
+  display: flex;
+  margin-left: 50px;
+  margin-top: -60px;
+}
+
+footer {
+  display: flex;
+}
+
+footer img {
+height: 95px;
+width: 95px;
+margin-left: 134px;
+}
+
+footer .main-text{
+  margin-right: 76.5px;
+  text-align: center;
+}
+
+footer .author-title{
+  height: 92px;
+  width: 250px;
+  text-align: center;
+}
+
+footer .sources-section{
+  width: 194px;
+  text-align: center;
+}
+
+.author-title,
+.sources-section{
+  margin-left: 57px;
+}
