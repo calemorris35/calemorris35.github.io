@@ -30,6 +30,19 @@ body{
   justify-content: center;
   align-items: flex-end;
   margin-left: 113.5px;
+  position: relative;
+}
+
+.letter-container img {
+  position: absolute;
+  z-index: 99;
+  top: -25%;
+  left: 13%;
+  visibility: hidden;
+}
+
+.letter-container img.visible{
+  visibility: visible;
 }
 
 .letter-container h1 {
@@ -58,13 +71,14 @@ body{
 
 .button {
   position:relative;
+  z-index: 100;
   height: 38px;
   width: 38px;
 }
 .position-absolute{
 position: absolute;
-top: 40%;
-right: 33%;
+top: 52%;
+right: 10%;
 
 }
 
@@ -139,6 +153,7 @@ footer .author-title{
 footer .sources-section{
   width: 194px;
   text-align: center;
+  margin-left: 85px;
 }
 
 .author-title,
