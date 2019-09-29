@@ -50,6 +50,7 @@ body{
   font-weight: 400;
   margin-top: -55.5px;
   margin-bottom: 0;
+  margin-left: -4%;
   color: #F9E1B3;
 
 }
@@ -94,8 +95,9 @@ a {
 
 .line{
   background-color: #72C3C3;
-  width: 117.5px;
+  width: 150px;
   height: 1px;
+  margin-left: 4%;
 }
 
 #line-1{
