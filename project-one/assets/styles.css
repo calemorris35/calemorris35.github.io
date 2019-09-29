@@ -75,6 +75,33 @@ body{
   height: 38px;
   width: 38px;
 }
+
+.button button{
+  background-color: rgba(0,0,0,0);
+}
+
+a {
+  color: rgba(114,195,195,.5);
+  text-decoration: none;
+}
+
+.line-group{
+  position: absolute;
+  display: flex;
+  top: 34%;
+  right: -17%;
+}
+
+.line{
+  background-color: #72C3C3;
+  width: 117.5px;
+  height: 1px;
+}
+
+#line-1{
+  margin-right: 200px;
+}
+
 .position-absolute{
 position: absolute;
 top: 52%;
