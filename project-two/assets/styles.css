@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 768px;
+  height: 4430px;
+  margin: 0 auto;
+}
+
+.container h1 {
+  font-family: 'Delius Unicase';
+  font-size: 95px;
+  text-align: center;
+  margin: 0px;
+}
+
+.title_container p {
+font-size: 35px;
+width: 296px;
+margin-left: 76px;
+}
+
+.title_container {
+  width: 768px;
+  height: 850px;
+  background-color: #DEA0A0;
+}
+
+.title_container img{
+  position: absolute;
+  margin-top: 75px;
+}
+
+.spring_container {
+  width: 768px;
+  height: 850px;
+  background-color: #CED739;
+}
+
+.spring_container img{
+  margin-left: 31%;
+  position: relative;
+  margin-top: 120px;
+}
+
+.spring_container button{
+  height: 102px;
+  width: 77px;
+}
+
+.summer_container {
+  width: 768px;
+  height: 850px;
+  background-color: #378E3D;
+}
+
+.summer_container img{
+  position: relative;
+  margin-left: 26%;
+  margin-top: 25px;
+}
+
+.summer_container button{
+  width: 120px;
+  height: 190px;
+}
+
+.fall_container {
+  width: 768px;
+  height: 850px;
+  background-color: #7E6111;
+}
+
+.fall_container img{
+  margin-left: 34%;
+  position: relative;
+  margin-top: 60px;
+}
+
+.fall_container button{
+width: 178px;
+height: 135px;
+}
+
+.winter_container {
+  width: 768px;
+  height: 850px;
+  background-color: #B9CAEE;
+}
+
+.winter_container img{
+  margin-left: 20%;
+  position: relative;
+  margin-top: 40px;
+}
+
+.winter_container button{
+  width: 167px;
+  height: 200px;
+}
+
+.bottom_container {
+  width: 768px;
+  height: 188px;
+  background-color: #DEA0A0;
+}
