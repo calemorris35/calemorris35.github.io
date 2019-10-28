@@ -1,0 +1,257 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2{
+  text-align: center;
+}
+
+.visible{
+  visibility: visible;
+}
+
+.container {
+  width: 768px;
+  height: 4430px;
+  margin: 0 auto;
+  background-color: #000000;
+}
+
+.title_page{
+  height: 850px;
+  background-color: #FF0000;
+  position: relative;
+  z-index: 100;
+}
+
+#title_pic img{
+  margin-left: 41%;
+  margin-top: 16%;
+}
+
+.spring_content{
+  height: 850px;
+  background-color: #CE7BCE;
+  position: relative;
+  z-index: 2;
+}
+
+#spring_tree img{
+  margin-left: 32%;
+  margin-top: 22%;
+}
+
+#spring_character img {
+  right: 40px;
+  position: fixed;
+  top: 35%;
+  z-index: 15;
+}
+
+img#egg_button {
+  margin-left: 18%;
+  margin-top: -6%;
+
+}
+
+#spring_button{
+  border-radius: 50%;
+  width: 78px;
+  height: 102px;
+  margin-left: 137px;
+  margin-top: -103px;
+  position: absolute;
+  z-index: 10;
+  background-color: #000000;
+}
+
+.spring_info{
+  background-color: #fefefe;
+  padding: 40px;
+  border: 1px solid #888;
+  width: 505px;
+  height: 505px;
+  position: absolute;
+  left: 11%;
+  top: 17%;
+  visibility: hidden;
+  display: flex;
+}
+
+.spring_info.visible{
+  visibility: visible;
+}
+
+.close{
+  color: #aaa;
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.summer_content{
+  height: 850px;
+  background-color: #7BCEA5;
+  position: relative;
+  z-index: 10;
+}
+
+#summer_tree img{
+  margin-left: 27%;
+  margin-top: 15%;
+}
+
+img#flag_button {
+  margin-left: 17%;
+  margin-top: -24%;
+
+}
+
+#summer_character img{
+  margin-left: 51.5%;
+  position: fixed;
+  top: 44.5%;
+  z-index: 11;
+}
+
+#summer_button{
+  border-radius: 50%;
+  width: 122px;
+  height: 116px;
+  margin-left: 137px;
+  margin-top: -176px;
+  position: absolute;
+  z-index: 100;
+  background-color: #000000;
+}
+
+.summer_info{
+  background-color: #fefefe;
+  padding: 40px;
+  border: 1px solid #888;
+  width: 505px;
+  height: 505px;
+  position: absolute;
+  left: 12%;
+  top: 16%;
+  visibility: hidden;
+  display: flex;
+}
+
+.summer_info.visible{
+  visibility: visible;
+}
+
+.fall_content{
+  height: 850px;
+  background-color: #BBCE7B;
+  position: relative;
+  z-index: 12;
+}
+
+#fall_tree img{
+  margin-left: 31%;
+  margin-top: 14%;
+}
+
+img#pumpkin_button{
+  margin-left: 11%;
+  margin-top: -24%;
+
+}
+
+#fall_character img{
+  margin-left: 55.5%;
+  position: fixed;
+  top: 44.5%;
+  z-index: 10;
+}
+
+#fall_button{
+  border-radius: 50%;
+  width: 173px;
+  height: 116px;
+  margin-left: 86px;
+  margin-top: -115px;
+  position: absolute;
+  z-index: 100;
+  background-color: #000000;
+}
+
+.fall_info{
+  background-color: #fefefe;
+  padding: 40px;
+  border: 1px solid #888;
+  width: 505px;
+  height: 505px;
+  position: absolute;
+  left: 12%;
+  top: 16%;
+  visibility: hidden;
+  display: flex;
+}
+
+.fall_info.visible{
+  visibility: visible;
+}
+
+.winter_content{
+  height: 850px;
+  background-color: #CE7BB1;
+  position: relative;
+  z-index: 14;
+}
+
+#winter_tree img{
+  margin-left: 22%;
+  margin-top: 16%;
+}
+
+img#tree_button{
+  margin-left: 11%;
+  margin-top: -24%;
+
+}
+
+#winter_character img{
+  margin-left: 54.5%;
+  position: fixed;
+  top: 40%;
+  z-index: 15;
+}
+
+#winter_button{
+  border-radius: 50%;
+  width: 173px;
+  height: 116px;
+  margin-left: 86px;
+  margin-top: -115px;
+  position: absolute;
+  z-index: 100;
+  background-color: #000000;
+}
+
+.winter_info{
+  background-color: #fefefe;
+  padding: 40px;
+  border: 1px solid #888;
+  width: 505px;
+  height: 505px;
+  position: absolute;
+  left: 12%;
+  top: 16%;
+  visibility: hidden;
+  display: flex;
+}
+
+.winter_info.visible{
+  visibility: visible;
+}
+
+.bottom_page{
+  height: 188px;
+  background-color: #FF0000;
+  position: relative;
+  z-index: 100;
+}
