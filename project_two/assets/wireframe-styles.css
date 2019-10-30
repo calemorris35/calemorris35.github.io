@@ -7,10 +7,6 @@ h1, h2{
   text-align: center;
 }
 
-.visible{
-  visibility: visible;
-}
-
 .container {
   width: 768px;
   height: 4430px;

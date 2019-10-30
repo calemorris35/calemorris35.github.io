@@ -1,17 +1,48 @@
 body{
-  background-color: #AE76FC;
   font-family: "Righteous";
-  color: #0547B1;
+  color: #B900F0;
   margin: 0;
   padding: 0;
+  background-color: #FFFFFF;
 }
 
 .title {
-  font-size: 25px;
+  display: flex;
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
+  color: #000000;
 }
 
 .container{
   width: 1024px;
   height: 768px;
-  width: 431px;
+}
+
+.project_one{
+  background-color: #2AD5E3;
+}
+
+.exercise{
+  background-color: #2AD5E3;
+}
+
+.project_two{
+  background-color: #2AD5E3;
+}
+
+.spacing-box{
+  margin: auto;
+  width: 50%;
+}
+
+.buttons a{
+  display: block;
+  padding: .75em;
+  border: .05em solid;
+  text-align: center;
+  margin-bottom: 1em;
+  color: unset;
 }
