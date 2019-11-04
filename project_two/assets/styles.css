@@ -1,164 +1,323 @@
-body {
+body{
   margin: 0;
   padding: 0;
+  font-family: "Delius Unicase";
 }
 
-div.progress{
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 4px;
-  background-color: #333;
-  z-index: 9999999;
-  transition: color 0.5s;
+h1, h2{
+  text-align: center;
+  font-size: 85px;
+  margin: 0;
 }
 
-#reveal-button{
-  height: 5em;
-  width: 5em;
-  background-color: #00f0ff;
+.modal {
+    position: fixed; /* Stay in place */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.6); /* Black w/ opacity */
+    visibility:hidden; /*Hidden by default*/
 }
 
-.notre-content {
-  width: 50vw;
-  padding: 1vw;
-  background-color: #fff;
+.modal.visible {
+  visibility: visible;
 }
 
-.notre-content p {
-  font-family: fantasy;
-  font-size: 2em;
-  color: #382b9d;
-  padding-left: 4vw;
+.modal {
+  z-index: 10; /* Sit on top */
 }
 
-.fighting-irish{
-  color: #247e1f;
-  font-weight: 900;
-  font-family: monospace;
-  letter-spacing: 5px;
+.spring_info,
+.summer_info,
+.fall_info,
+.winter_info {
+  z-index:11;
 }
 
-.invisible {
-  visibility: hidden;
-}
-
-.shadow{
-  background-color: red;
+.title_paragraph{
+  font-size: 35px;
+  margin-left: 5%;
 }
 
 .container {
   width: 768px;
   height: 4430px;
   margin: 0 auto;
+  background-color: #000000;
 }
 
-.container h1 {
-  font-family: 'Delius Unicase';
-  font-size: 95px;
-  text-align: center;
-  margin: 0px;
-}
-
-.title_container h1,
-.spring_container h1,
-.summer_container h1,
-.fall_container h1,
-.winter_container h1 {
-  padding-top: 55px;
-}
-
-.title_container h3 {
-font-size: 35px;
-width: 296px;
-margin-left: 76px;
-}
-
-.title_container {
-  width: 768px;
+.title_page{
   height: 850px;
   background-color: #FFD0D0;
+  position: relative;
 }
 
-.title_container img{
-  position: absolute;
+.title{
+  height: 115px;
+  width: 500px;
+  margin-left: 17%;
 }
 
-.spring_container {
-  width: 768px;
+.title_paragraph{
+  height: 544px;
+  width: 296px;
+}
+
+img#title_pic{
+  margin-left: 45%;
+  margin-top: -60%;
+}
+
+.spring_content{
   height: 850px;
   background-color: #5DD739;
+  position: relative;
 }
 
- img#spring_tree {
-  margin-left: 31%;
-  position: relative;
-  margin-top: 9%;
+#spring_tree img{
+  margin-left: 32%;
+  margin-top: 22%;
+}
+
+img#spring_character{
+  position: absolute;
+  margin-left: 45%;
+}
+
+img#spring_character.is_stuck {
+  bottom: auto;
 }
 
 img#egg_button {
-  position: relative;
+  margin-left: 18%;
+  margin-top: -6%;
 }
 
-.spring_container button{
+#spring_button{
+  border-radius: 50%;
+  width: 78px;
   height: 102px;
-  width: 77px;
+  margin-left: 137px;
+  margin-top: -103px;
+  position: absolute;
+  z-index: 100;
+  background-color: #000000;
 }
 
-.summer_container {
-  width: 768px;
+.spring_info{
+  background-color: #5DD739;
+  padding: 49px;
+  border: 50px solid #000000;
+  border-radius: 70px;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  left: 4.5%;
+  top: 9%;
+  visibility: hidden;
+  display: flex;
+}
+
+.spring_info.visible{
+  visibility: visible;
+  text-align: center;
+  font-size: 25px;
+}
+
+.close{
+  color: #aaa;
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.summer_content{
   height: 850px;
   background-color: #127DD9;
-}
-
-.summer_container img{
   position: relative;
-  margin-left: 26%;
-  margin-top: 25px;
 }
 
-.summer_container button{
-  width: 120px;
-  height: 190px;
+#summer_tree img{
+  margin-left: 27%;
+  margin-top: 15%;
 }
 
-.fall_container {
-  width: 768px;
+img#flag_button {
+  margin-left: 17%;
+  margin-top: -24%;
+
+}
+
+img#summer_character {
+  position: absolute;
+  margin-left: 41%;
+}
+
+img#summer_character.is_stuck {
+}
+
+#summer_button{
+  border-radius: 50%;
+  width: 122px;
+  height: 116px;
+  margin-left: 137px;
+  margin-top: -176px;
+  position: absolute;
+  z-index: 100;
+  background-color: #000000;
+}
+
+.summer_info{
+  background-color: #127DD9;
+  padding: 49px;
+  border: 50px solid #000000;
+  border-radius: 70px;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  left: 4.5%;
+  top: 9%;
+  visibility: hidden;
+  display: flex;
+}
+
+.summer_info.visible{
+  visibility: visible;
+  text-align: center;
+  font-size: 25px;
+}
+
+.fall_content{
   height: 850px;
   background-color: #D5871D;
-}
-
-.fall_container img{
-  margin-left: 34%;
   position: relative;
-  margin-top: 60px;
 }
 
-.fall_container button{
-width: 178px;
-height: 135px;
+#fall_tree img{
+  margin-left: 31%;
+  margin-top: 14%;
 }
 
-.winter_container {
-  width: 768px;
+img#pumpkin_button{
+  margin-left: 11%;
+  margin-top: -24%;
+
+}
+
+img#fall_character {
+  position: absolute;
+  margin-left: 42%;
+}
+
+img#fall_character.is_stuck {
+}
+
+#fall_button{
+  border-radius: 50%;
+  width: 173px;
+  height: 116px;
+  margin-left: 86px;
+  margin-top: -115px;
+  position: absolute;
+  z-index: 100;
+  background-color: #000000;
+}
+
+.fall_info{
+  background-color: #D5871D;
+  padding: 49px;
+  border: 50px solid #000000;
+  border-radius: 70px;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  left: 4.5%;
+  top: 9%;
+  visibility: hidden;
+  display: flex;
+}
+
+.fall_info.visible{
+  visibility: visible;
+  font-size: 25px;
+  text-align: center;
+}
+
+.winter_content{
   height: 850px;
   background-color: #B7CEFF;
-}
-
-.winter_container img{
-  margin-left: 20%;
   position: relative;
-  margin-top: 40px;
 }
 
-.winter_container button{
-  width: 167px;
-  height: 200px;
+#winter_tree img{
+  margin-left: 22%;
+  margin-top: 16%;
 }
 
-.bottom_container {
-  width: 768px;
+img#tree_button{
+  margin-left: 11%;
+  margin-top: -24%;
+
+}
+
+img#winter_character {
+  position: absolute;
+  margin-left: 42%;
+}
+
+img#winter_character.is_stuck {
+}
+
+#winter_button{
+  border-radius: 50%;
+  width: 173px;
+  height: 116px;
+  margin-left: 86px;
+  margin-top: -115px;
+  position: absolute;
+  z-index: 100;
+  background-color: #000000;
+}
+
+.winter_info{
+  background-color: #B7CEFF;
+  padding: 49px;
+  border: 50px solid #000000;
+  border-radius: 70px;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  left: 4.5%;
+  top: 9%;
+  visibility: hidden;
+  display: flex;
+}
+
+.winter_info.visible{
+  visibility: visible;
+  text-align: center;
+  font-size: 25px;
+}
+
+.bottom_page{
   height: 188px;
   background-color: #FFD0D0;
+  position: relative;
+}
+
+a#button_top{
+  height: 85px;
+  width: 512px;
+  margin-top: 30px;
+  margin-left: 39%;
+  color: black;
+  text-align: center;
+  line-height: 232%;
+  font-weight: 600;
+  font-size: 85px;
+  letter-spacing: 2px;
+  text-decoration: none;
 }

@@ -18,19 +18,29 @@ h1, h2{
   height: 850px;
   background-color: #FF0000;
   position: relative;
-  z-index: 100;
 }
 
-#title_pic img{
+.title{
+  height: 115px;
+  width: 500px;
+  background-color: #00E0FD;
+}
+
+.title_paragraph{
+  height: 544px;
+  width: 296px;
+  background-color: #00E0FD;
+}
+
+img#title_pic{
   margin-left: 41%;
-  margin-top: 16%;
+  margin-top: -60%;
 }
 
 .spring_content{
   height: 850px;
   background-color: #CE7BCE;
   position: relative;
-  z-index: 2;
 }
 
 #spring_tree img{
@@ -38,17 +48,18 @@ h1, h2{
   margin-top: 22%;
 }
 
-#spring_character img {
-  right: 40px;
-  position: fixed;
-  top: 35%;
-  z-index: 15;
+img#spring_character{
+  position: absolute;
+  margin-left: 45%;
+}
+
+img#spring_character.is_stuck {
+  bottom: auto;
 }
 
 img#egg_button {
   margin-left: 18%;
   margin-top: -6%;
-
 }
 
 #spring_button{
@@ -58,7 +69,7 @@ img#egg_button {
   margin-left: 137px;
   margin-top: -103px;
   position: absolute;
-  z-index: 10;
+  z-index: 100;
   background-color: #000000;
 }
 
@@ -90,7 +101,6 @@ img#egg_button {
   height: 850px;
   background-color: #7BCEA5;
   position: relative;
-  z-index: 10;
 }
 
 #summer_tree img{
@@ -104,11 +114,11 @@ img#flag_button {
 
 }
 
-#summer_character img{
-  margin-left: 51.5%;
-  position: fixed;
-  top: 44.5%;
-  z-index: 11;
+img#summer_character {
+  position: absolute;
+}
+
+img#summer_character.is_stuck {
 }
 
 #summer_button{
@@ -143,7 +153,6 @@ img#flag_button {
   height: 850px;
   background-color: #BBCE7B;
   position: relative;
-  z-index: 12;
 }
 
 #fall_tree img{
@@ -157,11 +166,12 @@ img#pumpkin_button{
 
 }
 
-#fall_character img{
-  margin-left: 55.5%;
-  position: fixed;
-  top: 44.5%;
-  z-index: 10;
+img#fall_character {
+  position: absolute;
+  margin-left: 20%;
+}
+
+img#fall_character.is_stuck {
 }
 
 #fall_button{
@@ -196,7 +206,6 @@ img#pumpkin_button{
   height: 850px;
   background-color: #CE7BB1;
   position: relative;
-  z-index: 14;
 }
 
 #winter_tree img{
@@ -210,11 +219,12 @@ img#tree_button{
 
 }
 
-#winter_character img{
-  margin-left: 54.5%;
-  position: fixed;
-  top: 40%;
-  z-index: 15;
+img#winter_character {
+  position: absolute;
+  margin-left: 27%;
+}
+
+img#winter_character.is_stuck {
 }
 
 #winter_button{
@@ -249,5 +259,18 @@ img#tree_button{
   height: 188px;
   background-color: #FF0000;
   position: relative;
-  z-index: 100;
+}
+
+a#button_top{
+  height: 85px;
+  width: 512px;
+  margin-top: 30px;
+  margin-left: 39%;
+  color: black;
+  text-align: center;
+  line-height: 232%;
+  font-weight: 600;
+  font-size: 85px;
+  letter-spacing: 2px;
+  text-decoration: none;
 }
