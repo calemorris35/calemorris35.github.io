@@ -33,7 +33,7 @@
         <div id="spring_tree">
           <img src="assets/spring_tree.png" alt="">
         </div>
-          <img id="egg_button" class="wobble animated" src="assets/egg_button.svg" alt="">
+          <img id="egg_button" src="assets/egg_button.svg" alt="" data-aos="wobble">
         <div class="spring_info" id="spring_info">
           <div class="spring_paragraph">
             <span class="close" id="spring_info_close">X</span>
@@ -50,7 +50,7 @@
         <div id="summer_tree">
           <img src="assets/summer_tree.png" alt="">
         </div>
-          <img id="flag_button" src="assets/flag_button.svg" alt="">
+          <img id="flag_button" src="assets/flag_button.svg" alt="" data-aos="wobble">
         <div class="summer_info" id="summer_info">
           <div class="summer_paragraph">
             <span class="close" id="summer_info_close">x</span>
@@ -64,10 +64,13 @@
         <div class="title_fall">
           <h2>Fall</h2>
         </div>
-        <div id="fall_tree">
+        <div class="rellax" id="fall_tree" data-rellax-speed="3">
           <img src="assets/fall_tree.png" alt="">
         </div>
-          <img id="pumpkin_button" src="assets/pumpkin_button.svg" alt="">
+        <div id="fall_leaves">
+          <img src="assets/fall_leaves.png" alt="">
+        </div>
+          <img id="pumpkin_button" src="assets/pumpkin_button.svg" alt="" data-aos="wobble">
         <div class="fall_info" id="fall_info">
           <div class="fall_paragraph">
             <span class="close" id="fall_info_close">x</span>
@@ -81,14 +84,17 @@
         <div class="title_winter">
           <h2>Winter</h2>
         </div>
-        <div id="winter_tree">
+        <div class="rellax" id="winter_tree" data-rellax-speed="3">
           <img src="assets/winter_tree.png" alt="">
         </div>
-          <img id="tree_button" src="assets/tree_button.svg" alt="">
+        <div id="winter_snow">
+          <img src="assets/winter_snow.png" alt="">
+        </div>
+          <img id="tree_button" src="assets/tree_button.svg" alt="" data-aos="wobble">
         <div class="winter_info" id="winter_info">
           <div class="winter_paragraph">
             <span class="close" id="winter_info_close">x</span>
-            <p>Winter begins in December every year and in 2020 it starts on December 21st. Winter is known in some parts of the world for its cold months with a lot of snow. in warmer climates it doesn’t typically snow but in colder climates there can be snow on the ground for months. People celebrate Christmas and new years during the winter. In cold climates its common to wear mittens and a hat when outside.</p>
+            <p>Winter begins in December every year and in 2020 it starts on December 21st. Winter is known in some parts of the world for its cold months with a lot of snow. In warmer climates it doesn’t typically snow, but in colder climates there can be snow on the ground for months. People celebrate Christmas and new years during the winter. In cold climates its common to wear mittens and a hat when outside.</p>
           </div>
         </div>
       </div>
@@ -108,6 +114,13 @@
     <script src="assets/toggle.jquery.js"></script>
     <script src="assets/jquery.sticky-kit.js"></script>
     <script src="assets/nd-sticky.js"></script>
+    <script src="assets/rellax.js" charset="utf-8"></script>
+    <script>
+    var rellax = new Rellax('.rellax', {
+      center: true
+    });
+  </script>
+
 
 
 

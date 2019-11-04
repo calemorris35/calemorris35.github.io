@@ -210,9 +210,17 @@ img#pumpkin_button{
 img#fall_character {
   position: absolute;
   margin-left: 42%;
+  z-index: 25;
 }
 
 img#fall_character.is_stuck {
+}
+
+#fall_leaves img{
+  position: absolute;
+  z-index: 20;
+  margin-top: -63%;
+  margin-left: 31%;
 }
 
 #fall_button{
@@ -238,6 +246,7 @@ img#fall_character.is_stuck {
   top: 9%;
   visibility: hidden;
   display: flex;
+  z-index: 30;
 }
 
 .fall_info.visible{
@@ -266,9 +275,17 @@ img#tree_button{
 img#winter_character {
   position: absolute;
   margin-left: 42%;
+  z-index: 25;
 }
 
 img#winter_character.is_stuck {
+}
+
+#winter_snow img{
+  position: absolute;
+  z-index: 20;
+  margin-top: -84%;
+  margin-left: 14%;
 }
 
 #winter_button{
@@ -294,6 +311,7 @@ img#winter_character.is_stuck {
   top: 9%;
   visibility: hidden;
   display: flex;
+  z-index: 30;
 }
 
 .winter_info.visible{
