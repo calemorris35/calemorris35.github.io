@@ -78,13 +78,15 @@ img#title_pic{
 }
 
 #spring_tree img{
-  margin-left: 32%;
-  margin-top: 22%;
+  margin-top: 3%;
+  position: absolute;
+  z-index: 3;
 }
 
 img#spring_character{
   position: absolute;
   margin-left: 45%;
+  z-index: 100;
 }
 
 img#spring_character.is_stuck {
@@ -94,6 +96,13 @@ img#spring_character.is_stuck {
 img#egg_button {
   margin-left: 18%;
   margin-top: -6%;
+}
+
+#spring_flowers img{
+  position: absolute;
+  z-index: 2;
+  margin-top: 100%;
+  margin-left: 31%;
 }
 
 #spring_button{
@@ -138,11 +147,16 @@ img#egg_button {
   height: 850px;
   background-color: #127DD9;
   position: relative;
+  z-index: 4;
 }
 
 #summer_tree img{
   margin-left: 27%;
-  margin-top: 15%;
+  margin-top: -14%;
+}
+
+img#summer_birds{
+  margin-top: 11%;
 }
 
 img#flag_button {
