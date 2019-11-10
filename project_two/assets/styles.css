@@ -30,13 +30,6 @@ h1, h2{
   z-index: 10; /* Sit on top */
 }
 
-.spring_info,
-.summer_info,
-.fall_info,
-.winter_info {
-  z-index:11;
-}
-
 .title_paragraph{
   font-size: 35px;
   margin-left: 5%;
@@ -71,22 +64,74 @@ img#title_pic{
   margin-top: -60%;
 }
 
-.spring_content{
-  height: 850px;
+.learn_more{
+  margin-left: 76.5%;
+  margin-top: 81%;
+  position: absolute;
+  z-index: 10;
+}
+
+.fall_learn_more{
+  margin-left: 72%;
+  margin-top: 81%;
+  position: absolute;
+  z-index: 10;
+}
+
+.winter_learn_more{
+  margin-left: 72%;
+  margin-top: 86%;
+  position: absolute;
+  z-index: 10;
+}
+
+.spring_content,
+.summer_content,
+.fall_content,
+.winter_content {
   background-color: #5DD739;
+  height: 850px;
   position: relative;
+}
+
+img#spring_character,
+img#summer_character,
+img#fall_character,
+img#winter_character {
+  position: absolute;
+  z-index: 4;
+}
+
+.spring_info,
+.summer_info,
+.fall_info,
+.winter_info {
+  background-color: #5DD739;
+  padding: 49px;
+  border: 50px solid #000000;
+  border-radius: 70px;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  left: 4.5%;
+  top: 9%;
+  visibility: hidden;
+  display: flex;
+  z-index: 11;
+}
+
+.spring_info.visible,
+.summer_info.visible,
+.fall_info.visible,
+.winter_info.visible {
+  visibility: visible;
+  text-align: center;
+  font-size: 25px;
 }
 
 #spring_tree img{
   margin-top: 9%;
   position: absolute;
-  z-index: 3;
-}
-
-img#spring_character{
-  position: absolute;
-  /* margin-left: 45%; */
-  z-index: 4;
 }
 
 img#spring_character.is_stuck {
@@ -107,37 +152,6 @@ img#egg_button {
   margin-left: 31%;
 }
 
-#spring_button{
-  border-radius: 50%;
-  width: 78px;
-  height: 102px;
-  margin-left: 137px;
-  margin-top: -103px;
-  position: absolute;
-  z-index: 100;
-  background-color: #000000;
-}
-
-.spring_info{
-  background-color: #5DD739;
-  padding: 49px;
-  border: 50px solid #000000;
-  border-radius: 70px;
-  width: 500px;
-  height: 500px;
-  position: absolute;
-  left: 4.5%;
-  top: 9%;
-  visibility: hidden;
-  display: flex;
-}
-
-.spring_info.visible{
-  visibility: visible;
-  text-align: center;
-  font-size: 25px;
-}
-
 .close{
   color: #aaa;
   float: right;
@@ -146,10 +160,7 @@ img#egg_button {
 }
 
 .summer_content{
-  height: 850px;
   background-color: #127DD9;
-  position: relative;
-  z-index: 4;
 }
 
 #summer_tree img{
@@ -159,6 +170,7 @@ img#egg_button {
 
 img#summer_birds{
   margin-top: 11%;
+  margin-left: 70%;
 }
 
 img#flag_button {
@@ -167,50 +179,15 @@ img#flag_button {
 
 }
 
-img#summer_character {
-  position: absolute;
-  /* margin-left: 41%; */
-  z-index: 4;
-}
-
 img#summer_character.is_stuck {
-}
-
-#summer_button{
-  border-radius: 50%;
-  width: 122px;
-  height: 116px;
-  margin-left: 137px;
-  margin-top: -176px;
-  position: absolute;
-  z-index: 100;
-  background-color: #000000;
 }
 
 .summer_info{
   background-color: #127DD9;
-  padding: 49px;
-  border: 50px solid #000000;
-  border-radius: 70px;
-  width: 500px;
-  height: 500px;
-  position: absolute;
-  left: 4.5%;
-  top: 9%;
-  visibility: hidden;
-  display: flex;
-}
-
-.summer_info.visible{
-  visibility: visible;
-  text-align: center;
-  font-size: 25px;
 }
 
 .fall_content{
-  height: 850px;
   background-color: #D5871D;
-  position: relative;
 }
 
 #fall_tree img{
@@ -227,12 +204,6 @@ img#pumpkin_button{
 
 }
 
-img#fall_character {
-  position: absolute;
-  /* margin-left: 42%; */
-  z-index: 25;
-}
-
 img#fall_character.is_stuck {
 }
 
@@ -243,42 +214,12 @@ img#fall_character.is_stuck {
   margin-left: 31%;
 }
 
-#fall_button{
-  border-radius: 50%;
-  width: 173px;
-  height: 116px;
-  margin-left: 86px;
-  margin-top: -115px;
-  position: absolute;
-  z-index: 100;
-  background-color: #000000;
-}
-
 .fall_info{
   background-color: #D5871D;
-  padding: 49px;
-  border: 50px solid #000000;
-  border-radius: 70px;
-  width: 500px;
-  height: 500px;
-  position: absolute;
-  left: 4.5%;
-  top: 9%;
-  visibility: hidden;
-  display: flex;
-  z-index: 30;
-}
-
-.fall_info.visible{
-  visibility: visible;
-  font-size: 25px;
-  text-align: center;
 }
 
 .winter_content{
-  height: 850px;
   background-color: #B7CEFF;
-  position: relative;
 }
 
 #winter_tree img{
@@ -288,16 +229,9 @@ img#fall_character.is_stuck {
 
 img#tree_button{
   margin-left: 68%;
-  margin-top: -24%;
+  margin-top: -28%;
   position: absolute;
   z-index: 10;
-
-}
-
-img#winter_character {
-  position: absolute;
-  /* margin-left: 42%; */
-  z-index: 25;
 }
 
 img#winter_character.is_stuck {
@@ -305,41 +239,12 @@ img#winter_character.is_stuck {
 
 #winter_snow img{
   position: absolute;
-  z-index: 9;
   margin-top: -84%;
   margin-left: 14%;
 }
 
-#winter_button{
-  border-radius: 50%;
-  width: 173px;
-  height: 116px;
-  margin-left: 86px;
-  margin-top: -115px;
-  position: absolute;
-  z-index: 100;
-  background-color: #000000;
-}
-
 .winter_info{
   background-color: #B7CEFF;
-  padding: 49px;
-  border: 50px solid #000000;
-  border-radius: 70px;
-  width: 500px;
-  height: 500px;
-  position: absolute;
-  left: 4.5%;
-  top: 9%;
-  visibility: hidden;
-  display: flex;
-  z-index: 30;
-}
-
-.winter_info.visible{
-  visibility: visible;
-  text-align: center;
-  font-size: 25px;
 }
 
 .bottom_page{
