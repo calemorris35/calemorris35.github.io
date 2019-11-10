@@ -44,13 +44,11 @@ img#title_pic{
 }
 
 #spring_tree img{
-  margin-left: 32%;
   margin-top: 22%;
 }
 
 img#spring_character{
   position: absolute;
-  margin-left: 45%;
 }
 
 img#spring_character.is_stuck {
@@ -58,8 +56,10 @@ img#spring_character.is_stuck {
 }
 
 img#egg_button {
-  margin-left: 18%;
-  margin-top: -6%;
+  margin-top: -42%;
+  margin-left: 72%;
+  position: absolute;
+  z-index: 5;
 }
 
 #spring_button{
@@ -109,8 +109,8 @@ img#egg_button {
 }
 
 img#flag_button {
-  margin-left: 17%;
   margin-top: -24%;
+  margin-left: 73%;
 
 }
 
@@ -161,14 +161,12 @@ img#summer_character.is_stuck {
 }
 
 img#pumpkin_button{
-  margin-left: 11%;
   margin-top: -24%;
-
+margin-left: 63%;
 }
 
 img#fall_character {
   position: absolute;
-  margin-left: 20%;
 }
 
 img#fall_character.is_stuck {
@@ -214,14 +212,13 @@ img#fall_character.is_stuck {
 }
 
 img#tree_button{
-  margin-left: 11%;
   margin-top: -24%;
+  margin-left: 67%;
 
 }
 
 img#winter_character {
   position: absolute;
-  margin-left: 27%;
 }
 
 img#winter_character.is_stuck {
