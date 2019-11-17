@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #F8F4E7;
+  color: #0C2340;
+}
+
+header{
+  text-align: center;
+}
+
+.site-header{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.site-header h3{
+  margin-top: .25em;
+}
+
+.site-header h3.second-line {
+  margin-bottom: .25em;
+}
+
+.personal-info{
+  border-bottom: .3em solid #2B6F06;
+}
+
+.site-picture{
+  display: flex;
+  margin: 0 auto;
+  width: 24.6875rem;
+}
+
+.profile{
+  height: 10em;
+  margin: 5%;
+}
+
+.resume-info h2{
+  text-align: center;
+  text-decoration: underline;
+}
+
+.resume-info h3{
+  margin-top: 1rem;
+}
+
+.accomplishments-summary, .volunteer-summary, .interests-summary{
+  margin-top: 1rem;
+}
+
+section h2{
+  text-align: center;
+  text-decoration: underline;
+}
+
+section h3{
+  margin-top: 1rem;
+}
+
+
+/* For Ipad */
+@media only screen and (min-width:500px) and (max-width:768px) {
+
+h4{
+  display: flex;
+  color: #2B6F06;
+}
+
+
+
+
+
+
+
+}
+
+
+/* For Desktop */
+@media only screen and (min-width:960px) {
+
+  section{
+    display: flex;
+  }
+
+  .resume-info, .resume-info2 {
+    margin: 0 10%;
+  }
+
+  .interests-summary{
+    margin: 1rem 15% 0 5%;
+  }
+
+  .volunteer-summary{
+    margin-bottom: 2rem;
+  }
+
+  h4{
+    margin-left: 87%;
+  }
+
+
+
+
+
+
+
+
+}
